@@ -1,0 +1,232 @@
+html,
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid orange; */
+  overflow: hidden;
+}
+
+html, body{
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+
+/************************main 시작*************************/
+
+#wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.inner{
+    padding: 30px 25px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.inner>img{
+    width: 75%;
+    padding-left: 3px;
+}
+
+.inner>p{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/****************************main 끝*********************/
+
+/***************************foote 시작r***********************/
+
+#footer{
+    background-color: darkgray;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+/* .start{
+    width: 50px;
+    height: 50px;
+} */
+/* 
+.sticon{
+    background-color: rgb(91, 90, 90);
+} */
+
+/* .start>img{
+    height: 60%;
+    padding-left: 15%;
+    padding-top: 15%;
+} */
+
+/* .bticon{
+    padding-left: 10px;
+    padding-top: 1px;
+} */
+
+#footer>.time{
+    width: 120px;
+    right: 0;
+    position: absolute;
+    line-height: 50px;
+    /* background-color: rgb(91, 90, 90); */
+    text-align: center;
+    box-shadow :1px 1px 3px 1px #5f6368 inset;
+}
+
+.modal{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(209, 212, 214, 0.909);
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    /* display: none; */
+}
+.modal.medium {
+    width: 500px;
+    height: 300px;
+}
+
+.title{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    position: relative;
+}
+
+.title>span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    width: 7%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#footer > ul {
+    display: flex;
+}
+
+#footer > ul > li { 
+    padding: 12px;
+}
+#footer > ul > li > img { height: 26px; } 
+
+#footer > ul > li.start { background-color: rgb(91, 90, 90); }
+
+.startmodal{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    /* display: none; */
+}
+
+.user{
+    width: 50px;
+    background-color: blue;
+    color: white;
+    line-height: 400px;
+    text-align: center;
+}
+
+.user>div{
+    transform: rotate(-90deg);
+    letter-spacing: 30px;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    right: 250px;
+    top: 160px;
+}
+
+.bttop{
+    width: 150px;
+    background-color: darkgray;
+}
+
+.btmodal{
+    position: relative;
+    height: 50px;
+    background-color: darkgray;
+    border-bottom: 1px solid gray;
+}
+
+.btmodal>p{
+    height: 100%;
+    margin: 0;
+}
+
+.btmodal>p:hover{
+    background-color: blue;
+    color: white;
+}
+
+.sidemodal{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 100px;
+    height: 50px;
+    background-color: darkgray;
+    display: none;
+}
+
+
+.open{
+    display: block;
+}
+/* 
+.toggle{
+    display: none;
+} */
+.hide {
+    display: none;
+}
+
+
+/* 다른곳을 눌러도 그냥 색이 들어가있음 */
+#footer > ul > li.shadow{
+    /* box-shadow :1px 1px 3px 1px #5f6368 inset; */
+    background-color: rgb(30 30 30);
+}
+
+#footer > ul > .fticon > p {
+    display: none;
+}
+
+
+/* .content{
+    height: 175px;
+}
+
+.content>div{
+    height: 100%;
+} */
