@@ -16,6 +16,14 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+a, a:visited, a:active {
+    color: inherit; /* 상속된 색상 사용 */
+    text-decoration: none; /* 밑줄 제거 */
+}
 
 /************************main 시작*************************/
 
@@ -103,6 +111,8 @@ li{
     position: absolute;
     top: 150px;
     left: 250px;
+    overflow:auto;
+    resize:both;
     /* display: none; */
 }
 .modal.medium {
@@ -230,3 +240,27 @@ li{
 .content>div{
     height: 100%;
 } */
+
+div.modal::-webkit-scrollbar {
+    display: none; 
+}
+
+div.modal div.content article{
+    display: flex;
+}
+
+/* modal */
+div.modal div.content table{
+    margin-bottom: 10px;
+    width: 100%;
+}
+div.modal div.content table thead{
+    background-color:  #3498db;
+}
+div.modal div.content table tbody{
+    background-color: aliceblue;
+}
+
+div.modal div.content p {
+    word-break: keep-all;
+}
