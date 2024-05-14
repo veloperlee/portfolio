@@ -241,9 +241,9 @@ a, a:visited, a:active {
     height: 100%;
 } */
 
-div.modal::-webkit-scrollbar {
+/* div.modal::-webkit-scrollbar {
     display: none; 
-}
+} */
 
 div.modal div.content article{
     display: flex;
