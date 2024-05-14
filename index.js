@@ -85,7 +85,7 @@ function showModal(title, x, y) {
     } else if (title == "Portfolio") {
         content = `<!--<div><a href="/portfolio/page/index.html" target="_blank">페이지</a></div>-->
          <div><a href="../todo/todo.html" target="_blank">투두리스트</a></div>
-         <div><a href="https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/brochure">민간 학교 브로슈어(git)</div>`;
+         <div><a href="https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/brochure target="_blank"">민간 학교 브로슈어(git)</div>`;
     } else {
         // content = "Contact 입니다.";
         content = `<div>PHONE: 010-8335-2805</div>
