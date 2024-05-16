@@ -84,7 +84,8 @@ function showModal(title, x, y) {
         content = `<div><table><thead><td>학교명</td><td>전공</td><td>졸업상태</td></thead><tbody><tr><td>한국폴리텍대학교 아산캠퍼스</td><td>정보통신시스템 학과</td><td>졸업</td></tr></tbody></table><table><thead><td>교육기관</td><td>프로그램명</td><td>기간</td></thead><tbody><tr><td>그린컴퓨터아카데미 강남</td><td>프론트엔드 웹개발</td><td>2021.11 ~ 2021.12</td></tr><tr><td>한국소프트웨어기술진흥협회</td><td>MSA Full-Stack SW 개발자양성과정</td><td>2022.03 ~ 2022.08</td></tr></tbody></table></div>`;
     } else if (title == "Portfolio") {
         content = `<!--<div><a href="/portfolio/page/index.html" target="_blank">페이지</a></div>-->
-         <div><a href="../todo/todo.html" target="_blank">투두리스트</a></div>
+        <div><a href="https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/portfolio" target="_blank">포트폴리오(현재 페이지)</a></div> 
+        <div><a href="https://veloperlee.github.io/todo/" target="_blank">투두리스트</a></div>
          <div><a href="https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/brochure" target="_blank">민간 학교 브로슈어(git)</div>`;
     } else {
         // content = "Contact 입니다.";
